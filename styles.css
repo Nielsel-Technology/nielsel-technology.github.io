@@ -75,5 +75,7 @@ footer {
     width: 100%;
     text-align: center;
     color: white;
-    font-weight: 300;
+    font-weight: 300; /* Raleway Light 300 */
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Matches text shadow styling */
 }
