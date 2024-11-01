@@ -1,0 +1,79 @@
+/* Background Video */
+#bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 20px; /* Customizable */
+    left: 20px; /* Customizable */
+    z-index: 10;
+}
+
+#logo {
+    height: 50px; /* Customizable */
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+main h1 {
+    font-size: 3em; /* Customizable */
+    font-weight: 700;
+}
+
+main p {
+    font-size: 1.5em; /* Customizable */
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* Contact Button */
+.contact-button {
+    font-weight: 300;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
