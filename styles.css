@@ -21,7 +21,8 @@ header {
 }
 
 #logo {
-    height: 50px; /* Customizable */
+    height: 80px; /* Customizable */
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7));
 }
 
 /* Main Content */
