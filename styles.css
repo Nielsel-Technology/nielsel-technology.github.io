@@ -76,4 +76,6 @@ footer {
     text-align: center;
     color: white;
     font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
